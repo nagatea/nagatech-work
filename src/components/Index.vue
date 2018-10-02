@@ -1,5 +1,5 @@
 <template>
-  <div id="container">
+  <md-content md-theme="selection-black">
     <Header />
     <About />
     <Skills />
@@ -23,7 +23,7 @@
       <a href="http://nagatea.web.fc2.com/">こいつ</a>
     </p>
     <Footer />
-  </div>
+  </md-content>
 </template>
 
 <script>
@@ -52,22 +52,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0px 20px;
-  background-color: #ffffff;
-}
-
-h2 {
-  clear: left;
-  padding: 10px 10px;
-  border-left: 10px solid #63bdfd;
-}
-
-h3 {
-  margin: 30px 0 0 0;
-  border-bottom: 3px dashed #63bdfd;
-}
-
 </style>
