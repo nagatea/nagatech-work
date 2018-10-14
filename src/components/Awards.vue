@@ -1,10 +1,10 @@
 <template>
-  <h2>Links and Contact</h2>
+  <h2>Awards</h2>
 </template>
 
 <script>
 export default {
-  name: 'Links'
+  name: 'Awards'
 }
 </script>
 

@@ -4,24 +4,8 @@
     <About />
     <Skills />
     <WorksIndex />
+    <Awards />
     <Links />
-    <h2>つくったもの</h2>
-    <h3>TwitterBot</h3>
-    <p>
-      ついったーのぼっと<br>
-      <a href="https://twitter.com/_nagatea">これ</a>
-    </p>
-    <h3>ポプテピピックのゲーム</h3>
-    <p>
-      ボブネミミッミのゲーム<br>
-      <a href="http://pptp-game.nagatech.trap.show/">ここ</a>
-      から遊べる
-    </p>
-    <h3>脱出ゲーム</h3>
-    <p>
-      実は中学生のころFlashゲームつくってた<br>
-      <a href="http://nagatea.web.fc2.com/">こいつ</a>
-    </p>
     <Footer />
   </md-content>
 </template>
@@ -31,6 +15,7 @@ import Header from '@/components/Header'
 import About from '@/components/About'
 import Skills from '@/components/Skills'
 import WorksIndex from '@/components/WorksIndex'
+import Awards from '@/components/Awards'
 import Links from '@/components/Links'
 import Footer from '@/components/Footer'
 export default {
@@ -40,6 +25,7 @@ export default {
     About,
     Skills,
     WorksIndex,
+    Awards,
     Links,
     Footer
   },
