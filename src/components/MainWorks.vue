@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Works</h2>
+    <h2>Main Works</h2>
     <WorkCard :datas="datas" />
   </div>
 </template>
@@ -8,7 +8,7 @@
 <script>
 import WorkCard from '@/components/WorkCard'
 export default {
-  name: 'Works',
+  name: 'MainWorks',
   components: {
     WorkCard
   },

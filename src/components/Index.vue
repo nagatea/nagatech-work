@@ -2,7 +2,7 @@
   <md-content md-theme="selection-black">
     <About />
     <Skills />
-    <WorksIndex />
+    <MainWorks />
     <Awards />
     <Links />
   </md-content>
@@ -11,7 +11,7 @@
 <script>
 import About from '@/components/About'
 import Skills from '@/components/Skills'
-import WorksIndex from '@/components/WorksIndex'
+import MainWorks from '@/components/MainWorks'
 import Awards from '@/components/Awards'
 import Links from '@/components/Links'
 export default {
@@ -19,7 +19,7 @@ export default {
   components: {
     About,
     Skills,
-    WorksIndex,
+    MainWorks,
     Awards,
     Links
   },
