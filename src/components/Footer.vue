@@ -10,5 +10,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.md-toolbar {
+  background-color: #e2faff;
+}
 </style>

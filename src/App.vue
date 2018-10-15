@@ -25,11 +25,12 @@ export default {
 
 <style>
 body {
-  background-color: #b1effd;
+  background-color: #e2faff;
 }
 
 #app {
-  width: 100%;
+  width: 95%;
+  margin: auto;
   padding: 80px 30px;
   background-color: #ffffff;
 }
