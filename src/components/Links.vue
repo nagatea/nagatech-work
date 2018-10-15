@@ -1,10 +1,14 @@
 <template>
   <div>
-    <h2>Links and Contact</h2>
+    <h2>Links</h2>
     <ul>
-      <li><a href="https://twitter.com/_nagatech" target="_brank">Twitter</a></li>
-      <li><a href="https://github.com/nagatea" target="_brank">GitHub</a></li>
-      <li><a href="https://blog.nagatech.work" target="_brank">Blog</a></li>
+      <li>Twitter: <a href="https://twitter.com/_nagatech" target="_brank">@_nagatech</a></li>
+      <li>GitHub: <a href="https://github.com/nagatea" target="_brank">nagatea</a></li>
+      <li>Article</li>
+      <ul>
+        <li>Blog: <a href="https://blog.nagatech.work" target="_brank">あれがながてち</a></li>
+        <li>Circle: <a href="https://trap.jp/author/nagatech/" target="_brank">nagatechの書いた記事</a></li>
+      </ul>
     </ul>
   </div>
 </template>

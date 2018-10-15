@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Langage and Skills</h2>
+    <h2>Language and Skills</h2>
     <ul>
       <li>Ruby</li>
       <li>Java</li>
