@@ -31,7 +31,7 @@ body {
 #app {
   width: 95%;
   margin: auto;
-  padding: 80px 30px;
+  padding: 80px 2.5vw;
   background-color: #ffffff;
 }
 

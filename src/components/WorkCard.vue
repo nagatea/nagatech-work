@@ -36,6 +36,10 @@ export default {
 li {
   list-style: none;
 }
+.md-layout-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .works-img {
   height: 180px;
   object-fit: cover;
