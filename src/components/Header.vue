@@ -10,9 +10,9 @@
          <md-menu md-direction="bottom-end" md-align-trigger>
             <md-button md-menu-trigger>Links</md-button>
             <md-menu-content>
-              <md-menu-item><a href="https://blog.nagatech.work" target="_brank">Blog</a></md-menu-item>
-              <md-menu-item><a href="https://twitter.com/_nagatech" target="_brank">Twitter</a></md-menu-item>
-              <md-menu-item><a href="https://github.com/nagatea" target="_brank">GitHub</a></md-menu-item>
+              <md-menu-item><a href="https://blog.nagatech.work" target="_blank">Blog</a></md-menu-item>
+              <md-menu-item><a href="https://twitter.com/_nagatech" target="_blank">Twitter</a></md-menu-item>
+              <md-menu-item><a href="https://github.com/nagatea" target="_blank">GitHub</a></md-menu-item>
             </md-menu-content>
           </md-menu>
       </div>
