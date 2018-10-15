@@ -1,15 +1,25 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
+    <Header />
+    <div id="app">
+      <router-view/>
+    </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Header,
+    Footer
+  }
 }
 </script>
 
@@ -22,7 +32,6 @@ body {
   width: 100%;
   padding: 80px 30px;
   background-color: #ffffff;
-  position: absolute;
 }
 
 h2 {
@@ -34,5 +43,9 @@ h2 {
 h3 {
   margin: 30px 0 0 0;
   border-bottom: 3px dashed #63bdfd;
+}
+
+ul {
+  padding-inline-start: 20px;
 }
 </style>
