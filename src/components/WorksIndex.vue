@@ -1,28 +1,38 @@
 <template>
   <div>
-    <h2>Works</h2>
-    <h3>TwitterBot</h3>
-    <p>
-      ついったーのぼっと<br>
-      <a href="https://twitter.com/_nagatea">これ</a>
-    </p>
-    <h3>ポプテピピックのゲーム</h3>
-    <p>
-      ボブネミミッミのゲーム<br>
-      <a href="http://pptp-game.nagatech.trap.show/">ここ</a>
-      から遊べる
-    </p>
-    <h3>脱出ゲーム</h3>
-    <p>
-      実は中学生のころFlashゲームつくってた<br>
-      <a href="http://nagatea.web.fc2.com/">こいつ</a>
-    </p>
+    <h2>Main Works</h2>
+    <WorkCard :datas="datas" />
   </div>
 </template>
 
 <script>
+import WorkCard from '@/components/WorkCard'
 export default {
-  name: 'Works'
+  name: 'Works',
+  components: {
+    WorkCard
+  },
+  data () {
+    return {
+      datas: [
+        {
+          title: 'SnapRally',
+          description: 'HackU東工大2017で開発した、地図上で写真を撮りながらスタンプラリーを楽しむAndroidアプリ。最優秀賞を受賞しました。',
+          links: [
+            {
+              link_title: 'HackU東工大2017公式サイト',
+              link_url: 'https://hacku.yahoo.co.jp/titech2017/'
+            },
+            {
+              link_title: '作品の紹介記事',
+              link_url: 'https://trap.jp/post/239/'
+            }
+          ],
+          img_path: require('../assets/works/snaprally.png')
+        }
+      ]
+    }
+  }
 }
 </script>
 
