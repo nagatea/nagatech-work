@@ -1,7 +1,11 @@
 <template>
   <div>
-    <h2>Works</h2>
-    <WorkCard :datas="datas" />
+    <h2>Web App</h2>
+    <WorkCard :datas="webAppDatas" />
+    <h2>Game</h2>
+    <WorkCard :datas="gameDatas" />
+    <h2>Android App</h2>
+    <WorkCard :datas="androidAppDatas" />
   </div>
 </template>
 
@@ -14,22 +18,7 @@ export default {
   },
   data () {
     return {
-      datas: [
-        {
-          title: 'SnapRally',
-          description: 'HackU東工大2017で開発した、地図上で写真を撮りながらスタンプラリーを楽しむAndroidアプリ。最優秀賞を受賞しました。',
-          links: [
-            {
-              link_title: 'HackU東工大2017公式サイト',
-              link_url: 'https://hacku.yahoo.co.jp/titech2017/'
-            },
-            {
-              link_title: '作品の紹介記事',
-              link_url: 'https://trap.jp/post/239/'
-            }
-          ],
-          img_path: require('../assets/works/snaprally.png')
-        },
+      webAppDatas: [
         {
           title: 'Mascot Ranking Viewer',
           description: '第6回学園祭マスコット総選挙非公式ランキング閲覧ツール。Chart.jsを用いて投票状況を可視化できるようにしました。',
@@ -51,6 +40,47 @@ export default {
             }
           ],
           img_path: require('../assets/works/booQ.png')
+        }
+      ],
+      gameDatas: [
+        {
+          title: 'Explosion',
+          description: 'お互いにくっつくブロックを操作しながら、同じ色のブロックを消していくパズルゲーム。ゲームの見た目の部分を担当しました。',
+          links: [
+            {
+              link_title: '作品の紹介記事',
+              link_url: 'https://trap.jp/post/233/'
+            }
+          ],
+          img_path: require('../assets/works/explosion.png')
+        },
+        {
+          title: '#pptp_game',
+          description: 'アニメ「ポプテピピック」のワンシーンを題材にした、記憶力を試すミニゲーム。',
+          links: [
+            {
+              link_title: '#pptp_game',
+              link_url: 'http://pptp-game.nagatech.trap.show/'
+            }
+          ],
+          img_path: require('../assets/works/pptp_game.png')
+        }
+      ],
+      androidAppDatas: [
+        {
+          title: 'SnapRally',
+          description: 'HackU東工大2017で開発した、地図上で写真を撮りながらスタンプラリーを楽しむAndroidアプリ。最優秀賞を受賞しました。',
+          links: [
+            {
+              link_title: 'HackU東工大2017公式サイト',
+              link_url: 'https://hacku.yahoo.co.jp/titech2017/'
+            },
+            {
+              link_title: '作品の紹介記事',
+              link_url: 'https://trap.jp/post/239/'
+            }
+          ],
+          img_path: require('../assets/works/snaprally.png')
         }
       ]
     }
