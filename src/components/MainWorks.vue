@@ -2,6 +2,9 @@
   <div>
     <h2>Main Works</h2>
     <WorkCard :datas="datas" />
+    <div class="md-layout md-alignment-top-right">
+      <md-button class="md-raised md-primary" to="/works">More...</md-button>
+    </div>
   </div>
 </template>
 
@@ -58,5 +61,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.md-button {
+  z-index: 0;
+}
 </style>

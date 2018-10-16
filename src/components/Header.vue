@@ -3,9 +3,9 @@
     <div class="md-toolbar-row">
       <h1 class="md-title">nagatech.work</h1>
       <div class="md-toolbar-section-end">
-        <md-tabs md-alignment="right">
-          <md-tab id="tab-home" md-label="Home" :to="{ name: 'Index' }"></md-tab>
-          <md-tab id="tab-pages" md-label="Works" :to="{ name: 'Works' }"></md-tab>
+        <md-tabs md-alignment="right" md-sync-route>
+          <md-tab id="tab-home" md-label="Home" to="/"></md-tab>
+          <md-tab id="tab-pages" md-label="Works" to="/works"></md-tab>
         </md-tabs>
          <md-menu md-direction="bottom-end" md-align-trigger>
             <md-button md-menu-trigger>Links</md-button>
