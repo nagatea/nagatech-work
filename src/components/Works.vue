@@ -6,6 +6,8 @@
     <WorkCard :datas="gameDatas" />
     <h2>Android App</h2>
     <WorkCard :datas="androidAppDatas" />
+    <h2>Twitter Bot</h2>
+    <WorkCard :datas="twitterBotDatas" />
   </div>
 </template>
 
@@ -64,6 +66,17 @@ export default {
             }
           ],
           img_path: require('../assets/works/pptp_game.png')
+        },
+        {
+          title: '進むネズミと見張るネコ',
+          description: '#traP3jamという、3時間でゲームを作る企画で制作したミニゲーム。テーマは「とまる」でした。',
+          links: [
+            {
+              link_title: '進むネズミと見張るネコ',
+              link_url: 'http://trap3jam-stop.nagatech.trap.show/'
+            }
+          ],
+          img_path: require('../assets/works/trap3jam_stop.png')
         }
       ],
       androidAppDatas: [
@@ -81,6 +94,19 @@ export default {
             }
           ],
           img_path: require('../assets/works/snaprally.png')
+        }
+      ],
+      twitterBotDatas: [
+        {
+          title: 'nagatea_bot',
+          description: '自分のWebアプリ開発の原点。多彩な機能を持ったチャットボット。例えば@_nagateaに「天気」とリプライするとその日の東京の天気を教えてくれます。',
+          links: [
+            {
+              link_title: '@_nagatea',
+              link_url: 'https://twitter.com/_nagatea'
+            }
+          ],
+          img_path: require('../assets/works/nagatea_bot.png')
         }
       ]
     }
