@@ -32,6 +32,7 @@ body {
   width: 95%;
   margin: auto;
   padding: 80px 2.5vw;
+  font-size: 16px;
   background-color: #ffffff;
 }
 

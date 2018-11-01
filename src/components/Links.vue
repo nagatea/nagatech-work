@@ -2,12 +2,12 @@
   <div>
     <h2>Links</h2>
     <ul>
-      <li>Twitter: <a href="https://twitter.com/_nagatech" target="_blank">@_nagatech</a></li>
-      <li>GitHub: <a href="https://github.com/nagatea" target="_blank">nagatea</a></li>
+      <li><img src="../assets/twitter.png"> <a href="https://twitter.com/_nagatech" target="_blank">@_nagatech</a></li>
+      <li><img src="../assets/github.png"> <a href="https://github.com/nagatea" target="_blank">nagatea</a></li>
       <li>Article</li>
       <ul>
         <li>Blog: <a href="https://blog.nagatech.work" target="_blank">あれがながてち</a></li>
-        <li>Circle: <a href="https://trap.jp/author/nagatech/" target="_blank">nagatechの書いた記事</a></li>
+        <li>Circle(traP): <a href="https://trap.jp/author/nagatech/" target="_blank">nagatechの書いた記事</a></li>
       </ul>
     </ul>
   </div>
@@ -19,5 +19,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+img {
+  width: 32px;
+  padding-right: 5px;
+}
 </style>
