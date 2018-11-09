@@ -4,10 +4,10 @@
     <WorkCard :datas="webAppDatas" />
     <h2>Game</h2>
     <WorkCard :datas="gameDatas" />
-    <h2>Android App</h2>
-    <WorkCard :datas="androidAppDatas" />
     <h2>Twitter Bot</h2>
     <WorkCard :datas="twitterBotDatas" />
+    <h2>Android App</h2>
+    <WorkCard :datas="androidAppDatas" />
   </div>
 </template>
 
@@ -22,6 +22,17 @@ export default {
     return {
       webAppDatas: [
         {
+          title: 'booQ',
+          description: 'サークル内ハッカソンで作成した、部内の書籍の貸し借りを楽にすることを目的とした書籍管理サービス。ハッカソンが終わった今も開発を進めています。',
+          links: [
+            {
+              link_title: '作品の紹介記事',
+              link_url: 'https://trap.jp/post/438/'
+            }
+          ],
+          img_path: require('../assets/works/booQ.png')
+        },
+        {
           title: 'Mascot Ranking Viewer',
           description: '第6回学園祭マスコット総選挙非公式ランキング閲覧ツール。Chart.jsを用いて投票状況を可視化できるようにしました。',
           links: [
@@ -33,15 +44,19 @@ export default {
           img_path: require('../assets/works/MascotRankingViewer.png')
         },
         {
-          title: 'booQ',
-          description: 'サークル内ハッカソンで作成した、部内の書籍の貸し借りを楽にすることを目的とした書籍管理サービス。ハッカソンが終わった今も開発を進めています。',
+          title: 'ラ・餃・チャジェネレータ',
+          description: '日高屋の「ラ・餃・チャセット」を自分で作ることができるアプリケーション(ネタアプリ)。作ったラ・餃・チャセットは画像として保存することが出来ます。',
           links: [
             {
+              link_title: 'ラ・餃・チャセットジェネレータ',
+              link_url: 'https://nagatech.trap.show/ragyotya/'
+            },
+            {
               link_title: '作品の紹介記事',
-              link_url: 'https://trap.jp/post/438/'
+              link_url: 'https://blog.nagatech.work/post/webapp/432'
             }
           ],
-          img_path: require('../assets/works/booQ.png')
+          img_path: require('../assets/works/ragyotya.png')
         }
       ],
       gameDatas: [
@@ -107,6 +122,17 @@ export default {
             }
           ],
           img_path: require('../assets/works/nagatea_bot.png')
+        },
+        {
+          title: 'profile_changer',
+          description: '気象庁から天気予報を取得してTwitterのアカウント名を変えることができるアプリ。雨の日はアカウント名に雨マークがついて、アイコンが雨仕様に変わります。',
+          links: [
+            {
+              link_title: 'ソースコード',
+              link_url: 'https://github.com/nagatea/profile_changer'
+            }
+          ],
+          img_path: require('../assets/works/profile_changer.png')
         }
       ]
     }

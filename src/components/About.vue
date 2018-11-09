@@ -22,7 +22,7 @@
           </ul>
           <li>Likes:</li>
           <ul class="non-dot">
-            <li>Programing, Game, Web, Electronic dance music</li>
+            <li>Programing, Web, Music Game, Electronic Dance Music(J-CORE)</li>
           </ul>
         </ul>
       </div>

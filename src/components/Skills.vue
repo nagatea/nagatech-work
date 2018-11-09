@@ -4,9 +4,8 @@
     <ul>
       <li>Ruby</li>
       <li>Java</li>
-      <li>JavaScript(ES6)</li>
       <li>Ruby on Rails</li>
-      <li>Node.js</li>
+      <li>Node.js (Express)</li>
       <li>Vue.js</li>
     </ul>
   </div>
