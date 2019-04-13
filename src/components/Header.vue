@@ -3,18 +3,16 @@
     <div class="md-toolbar-row">
       <h1 class="md-title">nagatech.work</h1>
       <div class="md-toolbar-section-end">
-        <md-tabs md-alignment="right" md-sync-route>
-          <md-tab id="tab-home" md-label="Home" to="/"></md-tab>
-          <md-tab id="tab-pages" md-label="Works" to="/works"></md-tab>
-        </md-tabs>
-         <md-menu md-direction="bottom-end" md-align-trigger>
-            <md-button md-menu-trigger>Links</md-button>
-            <md-menu-content>
-              <md-menu-item><a href="https://blog.nagatech.work" target="_blank">Blog</a></md-menu-item>
-              <md-menu-item><a href="https://twitter.com/_nagatech" target="_blank">Twitter</a></md-menu-item>
-              <md-menu-item><a href="https://github.com/nagatea" target="_blank">GitHub</a></md-menu-item>
-            </md-menu-content>
-          </md-menu>
+        <md-button :md-ripple="false" @click="$router.push({ name: 'Index' })">Home</md-button>
+        <md-button :md-ripple="false" @click="$router.push({ name: 'Works' })">Works</md-button>
+        <md-menu md-direction="bottom-end" md-align-trigger>
+          <md-button md-menu-trigger>Links</md-button>
+          <md-menu-content>
+            <md-menu-item><a href="https://blog.nagatech.work" target="_blank">Blog</a></md-menu-item>
+            <md-menu-item><a href="https://twitter.com/_nagatech" target="_blank">Twitter</a></md-menu-item>
+            <md-menu-item><a href="https://github.com/nagatea" target="_blank">GitHub</a></md-menu-item>
+          </md-menu-content>
+        </md-menu>
       </div>
     </div>
   </md-toolbar>

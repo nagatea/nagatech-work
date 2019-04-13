@@ -3,7 +3,7 @@
     <h2>Main Works</h2>
     <WorkCard :datas="datas" />
     <div class="md-layout md-alignment-top-right">
-      <md-button class="md-raised md-primary" to="/works">More...</md-button>
+      <md-button class="md-raised md-primary" @click="$router.push({ name: 'Works' })">More...</md-button>
     </div>
   </div>
 </template>
