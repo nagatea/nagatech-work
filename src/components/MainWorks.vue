@@ -8,13 +8,16 @@
   </div>
 </template>
 
-<script>
-import WorkCard from '@/components/WorkCard'
-export default {
-  name: 'MainWorks',
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+import WorkCard from '@/components/WorkCard.vue'
+
+@Component({
   components: {
     WorkCard
-  },
+  }
+})
+export default class MainWorks extends Vue {
   data () {
     return {
       datas: [

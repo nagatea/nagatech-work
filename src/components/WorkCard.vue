@@ -13,11 +13,13 @@
             {{ data.description }}
           </div>
           <hr>
-          <div v-for="link in data.links" :key="link.id" v-if="data.links">
-            <li>
-              <md-icon>play_arrow</md-icon>
-              <a :href="link.link_url" target="_blank">{{ link.link_title }}</a>
-            </li>
+          <div v-if="data.links">
+            <div v-for="link in data.links" :key="link.id">
+              <li>
+                <md-icon>play_arrow</md-icon>
+                <a :href="link.link_url" target="_blank">{{ link.link_title }}</a>
+              </li>
+            </div>
           </div>
         </md-card-content>
       </md-card>
@@ -25,10 +27,12 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'WorkCard',
-  props: ['datas']
+<script lang="ts">
+import { Component, Prop, Vue } from 'vue-property-decorator'
+
+@Component
+export default class WorkCard extends Vue {
+  @Prop(Object) readonly datas!: Object
 }
 </script>
 

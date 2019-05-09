@@ -8,18 +8,20 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 
-export default {
-  name: 'App',
+@Component({
   components: {
     Header,
     Footer
   }
+})
+export default class App extends Vue {
 }
 </script>
 

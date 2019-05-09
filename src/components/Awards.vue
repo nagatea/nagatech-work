@@ -16,10 +16,11 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Awards'
-}
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class Awards extends Vue {}
 </script>
 
 <style>
