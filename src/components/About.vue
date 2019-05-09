@@ -18,11 +18,11 @@
           </ul>
           <li>Grade:</li>
           <ul class="non-dot">
-            <li>東京工業大学 情報理工学院 数理・計算科学系 B3</li>
+            <li>東京工業大学 情報理工学院 数理・計算科学系 学部4年</li>
           </ul>
           <li>Likes:</li>
           <ul class="non-dot">
-            <li>Programing, Web, Music Game, Electronic Dance Music(J-CORE)</li>
+            <li>Programing, Web, Music Game(SOUND VOLTEX), Electronic Dance Music(J-CORE, Future Bass), THE IDOL M@STER</li>
           </ul>
         </ul>
       </div>

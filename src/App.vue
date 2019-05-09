@@ -51,5 +51,6 @@ h3 {
 
 ul {
   padding-inline-start: 20px;
+  line-height: 25px;
 }
 </style>

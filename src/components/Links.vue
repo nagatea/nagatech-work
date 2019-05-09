@@ -2,7 +2,7 @@
   <div>
     <h2>Links</h2>
     <ul>
-      <li><img src="../assets/twitter.png"> <a href="https://twitter.com/_nagatech" target="_blank">@_nagatech</a></li>
+      <li><img src="../assets/twitter.png"> <a href="https://twitter.com/nagatech_i" target="_blank">@nagatech_i</a></li>
       <li><img src="../assets/github.png"> <a href="https://github.com/nagatea" target="_blank">nagatea</a></li>
       <li>Article</li>
       <ul>
